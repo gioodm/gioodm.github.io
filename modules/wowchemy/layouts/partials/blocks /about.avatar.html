@@ -25,11 +25,10 @@
 <div id="profile">
 
   {{ if $avatar }}
-  <div class="avatar-wrapper">
-    {{ $avatar_image := $avatar.Fill "150x150 Center" }}
-    <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}"
-         width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}">
-    {{with $person.status.icon}}<span class="avatar-emoji">{{.|emojify}}</span>{{end}}
+  <div class="avatar-wrapper" style="width: 300px; height: 220px;">
+    {{ $avatar_image := $avatar.Fill "3000x3000 Center" }}
+    <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}" style="width: 300px; height: 300px;">
+    {{with $person.status.icon}}{{.|emojify}}{{end}}
   </div>
   {{ end }}
 
