@@ -39,7 +39,7 @@
   {{ end }}
   {{ end }}
 
-  <div id="profile" class="flex justify-center items-center flex-col">
+  <div id="profile" class="flex justify-start items-center flex-col">
     {{ if $avatar }}
 
     <div class="avatar-wrapper mt-10">
@@ -93,7 +93,7 @@
       <li>
         <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .icon }}"
            {{ with .label }} data-toggle="tooltip" data-placement="top" title="{{.}}"{{ end }}>
-          {{ partial "functions/get_icon" (dict "name" .icon "attributes" "style=\"height: 1.5rem;\"")  }}
+          {{ partial "functions/get_icon" (dict "name" .icon "attributes" "style=\"height: 2rem;\"")  }}
         </a>
       </li>
       {{ end }}
