@@ -6,8 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: blue
-  font: cyberpunk
+  color: indigo
 
 # SEO
 marketing:
