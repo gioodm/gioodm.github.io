@@ -18,23 +18,27 @@
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
 <style>
-  .bio-text, .portrait-title, .section-subheading {
-      overflow-wrap: break-word;
-      word-wrap: break-word;
-      word-break: break-word;
-      hyphens: auto;
-  }
-  .resume-biography {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-  }
-  @media (min-width: 768px) {
-      .resume-biography {
-          flex-direction: row;
-      }
-  }
-</style>
+    .bio-text, .portrait-title, .section-subheading {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        hyphens: auto;
+    }
+    .resume-biography {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    @media (min-width: 768px) {
+        .resume-biography {
+            flex-direction: row;
+        }
+    }
+    .avatar-wrapper img {
+        width: 100%;
+        height: auto;
+    }
+  </style>
 
 <div class="resume-biography px-3 flex flex-col md:flex-row justify-start gap-20">
   <div class="flex-none m-w-[130px] mx-auto md:mx-0">
