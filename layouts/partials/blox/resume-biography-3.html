@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Biography</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .resume-biography {
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .avatar-wrapper {
+        margin-top: 5em;
+    }
+    .portrait-title {
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    .network-icon {
+        margin-top: 5em;
+        margin-left: 3em;
+    }
+    .max-w-prose {
+        margin-top: 1em;
+        margin-left: 5em;
+    }
+    .bio-text {
+        font-size: 1em;
+    }
+    .section-subheading {
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        margin-top: 1.5em;
+        margin-left: 1em;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 1200px) {
+        .portrait-title {
+            font-size: 1.8em;
+        }
+        .network-icon {
+            margin-top: 4em;
+            margin-left: 2.5em;
+        }
+        .max-w-prose {
+            margin-top: 1em;
+            margin-left: 4em;
+        }
+        .bio-text {
+            font-size: 0.9em;
+        }
+        .section-subheading {
+            font-size: 1.1em;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .portrait-title {
+            font-size: 1.6em;
+        }
+        .network-icon {
+            margin-top: 3em;
+            margin-left: 2em;
+        }
+        .max-w-prose {
+            margin-top: 1em;
+            margin-left: 3em;
+        }
+        .bio-text {
+            font-size: 0.85em;
+        }
+        .section-subheading {
+            font-size: 1em;
+        }
+        .grid {
+            grid-template-columns: 1fr;
+            margin-left: 0.5em;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .resume-biography {
+            flex-direction: column;
+            align-items: center;
+            padding: 0.5em;
+        }
+        .avatar-wrapper {
+            margin-top: 3em;
+        }
+        .portrait-title {
+            font-size: 1.4em;
+        }
+        .network-icon {
+            margin-top: 2em;
+            margin-left: 1.5em;
+        }
+        .max-w-prose {
+            margin-top: 1em;
+            margin-left: 2em;
+        }
+        .bio-text {
+            font-size: 0.8em;
+        }
+        .section-subheading {
+            font-size: 0.9em;
+        }
+        .grid {
+            grid-template-columns: 1fr;
+            margin-left: 0.5em;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .resume-biography {
+            padding: 0.5em;
+        }
+        .avatar-wrapper {
+            margin-top: 2em;
+        }
+        .portrait-title {
+            font-size: 1.2em;
+        }
+        .network-icon {
+            margin-top: 1.5em;
+            margin-left: 1em;
+        }
+        .max-w-prose {
+            margin-top: 0.5em;
+            margin-left: 1em;
+        }
+        .bio-text {
+            font-size: 0.75em;
+        }
+        .section-subheading {
+            font-size: 0.8em;
+        }
+        .grid {
+            grid-template-columns: 1fr;
+            margin-left: 0.5em;
+        }
+    }
+</style>
+</head>
+<body>
+<div class="resume-biography">
+    <div class="flex-none m-w-[130px] mx-auto md:mx-0">
+        <div id="profile" class="flex justify-start items-center flex-col" style="margin-top: -20px; margin-left: 60px;">
+            <div class="avatar-wrapper mt-100">
+                <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="avatar.jpg" alt="Profile Picture">
+            </div>
+            <div class="portrait-title dark:text-white">
+                <div class="text-3xl font-bold mb-2 mt-6">
+                    John Doe
+                </div>
+                <h3 class="font-semibold mb-1">Software Developer</h3>
+                <div class="mb-2">
+                    <a href="https://example.com" target="_blank" rel="noopener">
+                        <div>Example Organization</div>
+                    </a>
+                </div>
+            </div>
+            <ul class="network-icon dark:text-zinc-100" style="margin-top: 80px; margin-left: 60px;">
+                <li>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin" style="height: 2.5rem;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github" style="height: 2.5rem;"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="flex-auto max-w-prose md:mt-12" style="margin-top: -40px; margin-left: 140px;">
+        <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
+            <div class="bio-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.
+            </div>
+        </div>
+        <a href="https://example.com" target="_blank" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
+            <svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
+                <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+            </svg> View Profile
+        </a>
+        <div class="grid grid-cols-2 gap-4 justify-end mt-6 dark:text-gray-300" style="margin-top: 30px; margin-left: 20px;">
+            <div>
+                <div class="section-subheading mb-3">Interests</div>
+                <ul class="list-disc list-inside space-y-1 pl-5">
+                    <li>Programming</li>
+                    <li>Reading</li>
+                    <li>Traveling</li>
+                </ul>
+            </div>
+            <div>
+                <div class="section-subheading mb-3">Education</div>
+                <ul>
+                    <li class="flex items-start gap-3">
+                        <i class="fas fa-graduation-cap flex-shrink-0 w-5 h-5 me-2 mt-1"></i>
+                        <div class="description">
+                            <p class="course">Computer Science, 2020</p>
+                            <p class="text-sm">University of Example</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
