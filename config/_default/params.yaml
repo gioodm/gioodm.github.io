@@ -7,7 +7,7 @@
 appearance:
   mode: system
   color: indigo
-  font: custom_font
+  font: minimal
 
 # SEO
 marketing:
