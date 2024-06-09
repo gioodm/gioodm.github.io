@@ -39,7 +39,7 @@
   {{ end }}
   {{ end }}
 
-  <div id="profile" class="flex justify-start items-center flex-col" style="margin-top: -20px; margin-left: 50px;"> 
+  <div id="profile" class="flex justify-start items-center flex-col" style="margin-top: -20px; margin-left: 80px;"> 
   {{ if $avatar }}
   <div class="avatar-wrapper mt-100">
     {{ $avatar_image := $avatar.Fill "800x800 Center" }}
@@ -74,7 +74,7 @@
       {{ end }}
     </div>
 
-    <ul class="network-icon dark:text-zinc-100">
+    <ul class="network-icon dark:text-zinc-100" style="margin-left: 80px;">
       {{ range $person.profiles }}
       {{ $pack := or .icon_pack "fas" }}
       {{ $pack_prefix := $pack }}
@@ -101,7 +101,7 @@
   </div>
   </div>
 
-<div class="flex-auto max-w-prose md:mt-12" style="margin-top: -30px; margin-left: 100px;"> <!-- Adjusted margin-top and margin-left -->
+<div class="flex-auto max-w-prose md:mt-12" style="margin-top: -40px; margin-left: 180px;"> <!-- Adjusted margin-top and margin-left -->
   {{ with ($block.content.text | emojify | $page.RenderString) | default $person_page.Content }}
   <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
     <div class="bio-text" {{ with $block.design.biography.style }}{{ (printf "style=\"%s\"" .) | safe.HTMLAttr }}{{end}}>
