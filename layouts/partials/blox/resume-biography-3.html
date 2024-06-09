@@ -17,29 +17,17 @@
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
-<style>
-    .bio-text, .portrait-title, .section-subheading {
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-        word-break: break-word;
-        hyphens: auto;
-    }
-    .resume-biography {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    @media (min-width: 768px) {
-        .resume-biography {
-            flex-direction: row;
+<head>
+    <style>
+      @media (max-width: 768px) {
+        #profile {
+          margin-top: 0;
+          margin-left: 0;
         }
-    }
-    .avatar-wrapper img {
-        width: 100%;
-        height: auto;
-    }
-  </style>
-
+      }
+    </style>
+  </head>
+  
 <div class="resume-biography px-3 flex flex-col md:flex-row justify-start gap-20">
   <div class="flex-none m-w-[130px] mx-auto md:mx-0">
 
@@ -61,7 +49,7 @@
   {{ end }}
   {{ end }}
 
-  <div id="profile" class="flex justify-start items-center flex-col" style="margin-top: -20px; margin-left: 60px;"> 
+  <div id="profile" class="flex justify-start items-center flex-col md:flex-none" style="margin-top: -20px; margin-left: 60px;">
   {{ if $avatar }}
   <div class="avatar-wrapper mt-100">
     {{ $avatar_image := $avatar.Fill "1000x1000 Center" }}
@@ -123,7 +111,7 @@
   </div>
   </div>
 
-<div class="flex-auto max-w-prose md:mt-12" style="margin-top: -40px; margin-left: 140px;">
+<div class="flex-auto max-w-prose md:mt-12 md:flex-grow" style="margin-top: -40px; margin-left: 140px;">
   {{ with ($block.content.text | emojify | $page.RenderString) | default $person_page.Content }}
   <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
     <div class="bio-text" {{ with $block.design.biography.style }}{{ (printf "style=\"%s\"" .) | safe.HTMLAttr }}{{end}}>
