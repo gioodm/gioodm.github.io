@@ -7,7 +7,7 @@
 appearance:
   mode: system
   color: indigo
-  font: 'serif'
+  font: 'sans-serif'
 
 # SEO
 marketing:
