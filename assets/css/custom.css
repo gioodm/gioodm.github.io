@@ -1,8 +1,27 @@
-name = "My custom font"
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro:wght@200;300;400;700&display=swap');
 
-google_fonts = "family=Roboto+Mono&family=Source+Sans+Pro:wght@200;300;400;700"
+/* Define CSS variables for fonts */
+:root {
+    --heading-font: 'Source Sans Pro', sans-serif;
+    --body-font: 'Source Sans Pro', sans-serif;
+    --nav-font: 'Source Sans Pro', sans-serif;
+    --mono-font: 'Roboto Mono', monospace;
+}
 
-heading_font = "Source Sans Pro"
-body_font = "Source Sans Pro"
-nav_font = "Source Sans Pro"
-mono_font = "Roboto Mono"
+/* Apply CSS variables */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+nav {
+    font-family: var(--nav-font);
+}
+
+code, pre {
+    font-family: var(--mono-font);
+}
