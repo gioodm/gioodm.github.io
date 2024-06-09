@@ -1,0 +1,2 @@
+{{- /* Hugo 0.126 requires a `home` layout even if it serves no purpose, otherwise shows warning */ -}}
+{{- jsonify dict -}}
