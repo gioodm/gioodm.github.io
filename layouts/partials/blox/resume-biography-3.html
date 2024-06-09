@@ -18,57 +18,20 @@
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
 <style>
-  .portrait-title {
-      font-size: 2em;
+  .bio-text, .portrait-title, .section-subheading {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      word-break: break-word;
+      hyphens: auto;
   }
-  .bio-text {
-      font-size: 1em;
+  .resume-biography {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
   }
-  .section-subheading {
-      font-size: 1.2em;
-  }
-  @media (max-width: 1200px) {
-      .portrait-title {
-          font-size: 1.8em;
-      }
-      .bio-text {
-          font-size: 0.9em;
-      }
-      .section-subheading {
-          font-size: 1.1em;
-      }
-  }
-  @media (max-width: 992px) {
-      .portrait-title {
-          font-size: 1.6em;
-      }
-      .bio-text {
-          font-size: 0.85em;
-      }
-      .section-subheading {
-          font-size: 1em;
-      }
-  }
-  @media (max-width: 768px) {
-      .portrait-title {
-          font-size: 1.4em;
-      }
-      .bio-text {
-          font-size: 0.8em;
-      }
-      .section-subheading {
-          font-size: 0.9em;
-      }
-  }
-  @media (max-width: 576px) {
-      .portrait-title {
-          font-size: 1.2em;
-      }
-      .bio-text {
-          font-size: 0.75em;
-      }
-      .section-subheading {
-          font-size: 0.8em;
+  @media (min-width: 768px) {
+      .resume-biography {
+          flex-direction: row;
       }
   }
 </style>
