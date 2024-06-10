@@ -22,11 +22,21 @@
     gap: 3rem; /* Adjust the gap between flex items */
 }
 
-/* Adjust the positioning of the avatar and icons */
-.avatar-wrapper {
-    margin-top: -20px; /* Adjust the top margin as needed */
-    margin-left: -75px; /* Adjust the left margin as needed */
+.avatar-wrapper img,
+.network-icon li {
+    width: 100px; /* Set the default width */
+    height: 100px; /* Set the default height */
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .avatar-wrapper img,
+    .network-icon li {
+        width: 50px; /* Set smaller width for smaller screens */
+        height: 50px; /* Set smaller height for smaller screens */
+    }
+}
+
 
 .network-icon {
     margin-top: 80px; /* Adjust the top margin as needed */
