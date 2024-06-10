@@ -25,7 +25,7 @@
 /* Adjust the positioning of the avatar and icons */
 .avatar-wrapper {
     margin-top: -20px; /* Adjust the top margin as needed */
-    margin-left: -180px; /* Adjust the left margin as needed */
+    margin-left: -100px; /* Adjust the left margin as needed */
 }
 
 .avatar {
@@ -35,12 +35,12 @@
 
 .network-icon-container {
     margin-top: 65px; /* Adjust the top margin as needed */
-    margin-left: -100px; /* Adjust the left margin as needed */
+    margin-left: -50px; /* Adjust the left margin as needed */
 }
 
 .flex-auto {
     margin-top: -40px; /* Adjust the top margin as needed */
-    margin-left: 80px; /* Adjust the left margin as needed */
+    margin-left: 100px; /* Adjust the left margin as needed */
 }
 
 /* Media queries for responsive design */
