@@ -19,12 +19,12 @@
 }
 
 .resume-biography {
-    gap: 5rem; /* Adjust the gap between flex items */
+    gap: 2rem; /* Adjust the gap between flex items */
 }
 
 /* Adjust the positioning of the avatar and icons */
 .avatar-wrapper {
-    margin-top: -15px; /* Adjust the top margin as needed */
+    margin-top: -20px; /* Adjust the top margin as needed */
     margin-left: -20px; /* Adjust the left margin as needed */
 }
 
@@ -38,6 +38,7 @@
     margin-top: -40px; /* Adjust the top margin as needed */
     margin-left: 20px; /* Adjust the left margin as needed */
 }
+
 
 /* Apply CSS variables */
 h1, h2, h3, h4, h5, h6 {
