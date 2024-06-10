@@ -35,9 +35,9 @@
 }
 
 .network-icon-container {
-    margin-top: 50px; /* Adjust the top margin as needed */
+    margin-top: 60px; /* Adjust the top margin as needed */
     margin-left: -120px; /* Adjust the left margin as needed */
-    font-size: 40px;
+    font-size: 80px;
 }
 
 .flex-auto {
