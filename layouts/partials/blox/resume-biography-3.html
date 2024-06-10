@@ -18,7 +18,7 @@
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
 
-<div class="resume-biography px-3 flex flex-col md:flex-row justify-start" style="gap: 5%;">
+<div class="resume-biography px-3 flex flex-col md:flex-row justify-start" style="gap: 2%;">
   <div class="flex-none m-w-[130px] mx-auto md:mx-0">
 
   {{ $img := "" }}
@@ -74,7 +74,7 @@
       {{ end }}
     </div>
 
-    <ul class="network-icon dark:text-zinc-100" style="margin-top: 15%; margin-left: 15%;">
+    <ul class="network-icon dark:text-zinc-100" style="margin-top: 2%; margin-left: 5%;">
       {{ range $person.profiles }}
       {{ $pack := or .icon_pack "fas" }}
       {{ $pack_prefix := $pack }}
