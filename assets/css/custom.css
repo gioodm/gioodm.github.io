@@ -20,7 +20,7 @@
 
 .resume-biography {
     gap: 3rem; /* Adjust the gap between flex items */
-    width: 100%;
+    width: calc(100% + 40px); /* Increase the width of the box */
 }
 
 /* Adjust the positioning of the avatar and icons */
@@ -43,6 +43,7 @@
 .flex-auto {
     margin-top: -40px; /* Adjust the top margin as needed */
     margin-left: 20px; /* Adjust the left margin as needed */
+    width: calc(100% + 40px); /* Increase the width of the box */
 }
 
 /* Media queries for responsive design */
@@ -63,6 +64,7 @@
         /* Adjust the bio, interests, and education position for smaller screens */
         margin-top: -20px;
         margin-left: 10px;
+        width: calc(100% + 20px); /* Adjust the width for smaller screens */
     }
 }
 
