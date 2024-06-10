@@ -40,6 +40,8 @@
 
 /* Adjust the positioning of the bio, interests, and education */
 .flex-auto {
+    max-width: 800px;
+    width: 100%;
     margin-top: -40px; /* Adjust the top margin as needed */
     margin-left: 20px; /* Adjust the left margin as needed */
 }
