@@ -34,15 +34,9 @@
     height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
 }
 
-.network-icon {
-    margin-top: 150px; /* Adjust the top margin as needed */
-    margin-left: -20px; /* Adjust the left margin as needed */
-}
-
-/* Adjust the positioning of the bio, interests, and education */
 .flex-auto {
     margin-top: -40px; /* Adjust the top margin as needed */
-    margin-left: 20px; /* Adjust the left margin as needed */
+    margin-left: 60px; /* Adjust the left margin as needed */
     width: calc(100% + 40px); /* Increase the width of the box */
 }
 
