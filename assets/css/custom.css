@@ -26,7 +26,7 @@
 /* Adjust the positioning of the avatar and icons */
 .avatar-wrapper {
     margin-top: -20px; /* Adjust the top margin as needed */
-    margin-left: -100px; /* Adjust the left margin as needed */
+    margin-left: -120px; /* Adjust the left margin as needed */
 }
 
 .avatar {
@@ -35,9 +35,8 @@
 }
 
 .network-icon {
-    margin-top: 80px; /* Adjust the top margin as needed */
+    margin-top: 150px; /* Adjust the top margin as needed */
     margin-left: -20px; /* Adjust the left margin as needed */
-    font-size: 40px; /* Increase the size of the network icons */
 }
 
 /* Adjust the positioning of the bio, interests, and education */
