@@ -12,6 +12,7 @@
 /* Apply CSS variables */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
+    font-size: 1.8em;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
 
 nav {
     font-family: var(--nav-font);
-    font-size: 1.8em;
 }
 
 code, pre {
