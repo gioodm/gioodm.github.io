@@ -34,6 +34,11 @@
     height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
 }
 
+.network-icon-container {
+    margin-top: -20px; /* Adjust the top margin as needed */
+    margin-left: -120px; /* Adjust the left margin as needed */
+}
+
 .flex-auto {
     margin-top: -40px; /* Adjust the top margin as needed */
     margin-left: 60px; /* Adjust the left margin as needed */
