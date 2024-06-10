@@ -35,3 +35,60 @@ nav {
 code, pre {
     font-family: var(--mono-font);
 }
+
+/* Ensure the flex container displays its children in a row on larger screens */
+.resume-biography {
+    display: flex;
+    flex-direction: column; /* Default to column for smaller screens */
+    justify-content: center;
+    gap: 12px;
+    padding-left: 1rem; /* Add padding to the left */
+    padding-right: 1rem; /* Add padding to the right */
+}
+
+/* For medium and larger screens, switch to row layout */
+@media (min-width: 768px) {
+    .resume-biography {
+        flex-direction: row;
+    }
+
+    /* Ensure the avatar container doesn't shrink and is aligned to the left */
+    .resume-biography .avatar-container {
+        flex: 0 0 auto; /* Prevent shrinking and ensure it doesn't grow */
+        margin-right: 20px; /* Add space between avatar and text */
+    }
+
+    /* Ensure the text container can grow and fill the remaining space */
+    .resume-biography .text-container {
+        flex: 1 1 auto; /* Allow growing and shrinking */
+        max-width: 600px; /* Optionally constrain the max width */
+        margin-left: 20px; /* Add space between avatar and text */
+    }
+}
+
+.avatar-wrapper {
+    text-align: center; /* Center align for smaller screens */
+}
+
+@media (min-width: 768px) {
+    .avatar-wrapper {
+        text-align: left; /* Align left for larger screens */
+    }
+}
+
+/* General styling for avatar and text */
+.avatar {
+    border-radius: 50%; /* Make sure the avatar is circular */
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.portrait-title {
+    margin-top: 1rem;
+}
+
+.bio-text {
+    padding-top: 0.5rem;
+}
+
