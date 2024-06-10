@@ -22,21 +22,11 @@
     gap: 3rem; /* Adjust the gap between flex items */
 }
 
-.avatar-wrapper img,
-.network-icon li {
-    width: 100px; /* Set the default width */
-    height: 100px; /* Set the default height */
+/* Adjust the positioning of the avatar and icons */
+.avatar-wrapper {
+    margin-top: -20px; /* Adjust the top margin as needed */
+    margin-left: -75px; /* Adjust the left margin as needed */
 }
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-    .avatar-wrapper img,
-    .network-icon li {
-        width: 50px; /* Set smaller width for smaller screens */
-        height: 50px; /* Set smaller height for smaller screens */
-    }
-}
-
 
 .network-icon {
     margin-top: 80px; /* Adjust the top margin as needed */
@@ -49,6 +39,26 @@
     margin-left: 20px; /* Adjust the left margin as needed */
 }
 
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    .avatar-wrapper {
+        /* Adjust the avatar size and position for smaller screens */
+        margin-top: -10px;
+        margin-left: -50px;
+    }
+
+    .network-icon {
+        /* Adjust the icons size and position for smaller screens */
+        margin-top: 60px;
+        margin-left: -10px;
+    }
+
+    .flex-auto {
+        /* Adjust the bio, interests, and education position for smaller screens */
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+}
 
 /* Apply CSS variables */
 h1, h2, h3, h4, h5, h6 {
