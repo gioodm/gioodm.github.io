@@ -9,6 +9,12 @@
     --mono-font: 'Roboto Mono', monospace;
 }
 
+/* Increase font size of the logo text in the navigation bar */
+.navbar-brand {
+    font-size: 1.5em; /* Adjust the value as needed */
+    font-weight: bold; /* Optional: Make the text bold */
+}
+
 /* Apply CSS variables */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
