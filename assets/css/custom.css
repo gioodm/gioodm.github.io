@@ -19,17 +19,17 @@
 }
 
 .resume-biography {
-    gap: 2rem; /* Adjust the gap between flex items */
+    gap: 5rem; /* Adjust the gap between flex items */
 }
 
 /* Adjust the positioning of the avatar and icons */
 .avatar-wrapper {
-    margin-top: -20px; /* Adjust the top margin as needed */
+    margin-top: -15px; /* Adjust the top margin as needed */
     margin-left: -20px; /* Adjust the left margin as needed */
 }
 
 .network-icon {
-    margin-top: 80px; /* Adjust the top margin as needed */
+    margin-top: 100px; /* Adjust the top margin as needed */
     margin-left: -20px; /* Adjust the left margin as needed */
 }
 
