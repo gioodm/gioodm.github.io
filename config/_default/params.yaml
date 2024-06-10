@@ -36,6 +36,7 @@ header:
     show_theme_chooser: true
     logo:
       text: GIORGIA DEL MISSIER
+      font-size: 1.8rem
 
 # Site footer
 footer:
