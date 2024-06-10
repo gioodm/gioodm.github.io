@@ -28,6 +28,11 @@
     margin-left: -75px; /* Adjust the left margin as needed */
 }
 
+.avatar {
+    width: 10%; /* Adjust the width of the avatar relative to the parent container */
+    height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
+}
+
 .network-icon {
     margin-top: 80px; /* Adjust the top margin as needed */
     margin-left: -20px; /* Adjust the left margin as needed */
@@ -45,6 +50,10 @@
         /* Adjust the avatar size and position for smaller screens */
         margin-top: -10px;
         margin-left: -50px;
+    }
+
+    .avatar {
+        width: 20%; /* Adjust the width of the avatar for smaller screens */
     }
 
     .network-icon {
