@@ -19,7 +19,7 @@
 }
 
 .resume-biography {
-    gap: 5rem; /* Adjust the gap between flex items */
+    gap: 10rem; /* Adjust the gap between flex items */
 }
 
 /* Adjust the positioning of the avatar and icons */
