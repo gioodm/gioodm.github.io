@@ -31,7 +31,6 @@
 .avatar {
     width: 100%; /* Make the avatar image responsive */
     height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
-    width: auto\9;
 }
 
 .network-icon {
