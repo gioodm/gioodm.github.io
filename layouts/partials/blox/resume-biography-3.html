@@ -18,7 +18,7 @@
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
 
-<div class="resume-biography px-3 flex flex-col md:flex-row justify-start gap-20">
+<div class="resume-biography px-3 flex flex-col md:flex-row justify-start" style="gap: 5%;">
   <div class="flex-none m-w-[130px] mx-auto md:mx-0">
 
   {{ $img := "" }}
@@ -39,7 +39,7 @@
   {{ end }}
   {{ end }}
 
-  <div id="profile" class="flex justify-start items-center flex-col" style="margin-top: -5%; margin-left: 10%;">
+  <div id="profile" class="flex justify-start items-center flex-col" style="margin-top: -5%; margin-left: 15%;">
   {{ if $avatar }}
   <div class="avatar-wrapper mt-100">
     {{ $avatar_image := $avatar.Fill "1000x1000 Center" }}
@@ -74,7 +74,7 @@
       {{ end }}
     </div>
 
-    <ul class="network-icon dark:text-zinc-100" style="margin-top: 5%; margin-left: 10%;">
+    <ul class="network-icon dark:text-zinc-100" style="margin-top: 15%; margin-left: 15%;">
       {{ range $person.profiles }}
       {{ $pack := or .icon_pack "fas" }}
       {{ $pack_prefix := $pack }}
@@ -101,7 +101,7 @@
   </div>
   </div>
 
-<div class="flex-auto max-w-prose md:mt-12" style="margin-top: -10%; margin-left: 20%;">
+<div class="flex-auto max-w-prose md:mt-12" style="margin-top: 10%; margin-left: 20%;">
   {{ with ($block.content.text | emojify | $page.RenderString) | default $person_page.Content }}
   <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
     <div class="bio-text" {{ with $block.design.biography.style }}{{ (printf "style=\"%s\"" .) | safe.HTMLAttr }}{{end}}>
@@ -118,7 +118,7 @@
     </svg> {{.text}}</a>
   {{ end }}
 
-  <div class="grid grid-cols-2 gap-4 justify-end mt-6 dark:text-gray-300" style="margin-top: 30px; margin-left: 20px;"> <!-- Adjusted margin-top and margin-left -->
+  <div class="grid grid-cols-2 gap-4 justify-end mt-6 dark:text-gray-300" style="margin-top: 20%; margin-left: 20%;">
     {{ with $person.interests }}
     <div class="">
       <div class="section-subheading mb-3">{{ i18n "interests" | markdownify }}</div>
