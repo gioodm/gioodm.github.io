@@ -29,7 +29,7 @@
 }
 
 .avatar {
-    width: 10%; /* Adjust the width of the avatar relative to the parent container */
+    width: 100%; /* Make the avatar image responsive */
     height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
 }
 
@@ -47,17 +47,13 @@
 /* Media queries for responsive design */
 @media screen and (max-width: 768px) {
     .avatar-wrapper {
-        /* Adjust the avatar size and position for smaller screens */
+        /* Adjust the avatar position for smaller screens */
         margin-top: -10px;
         margin-left: -50px;
     }
 
-    .avatar {
-        width: 20%; /* Adjust the width of the avatar for smaller screens */
-    }
-
     .network-icon {
-        /* Adjust the icons size and position for smaller screens */
+        /* Adjust the icons position for smaller screens */
         margin-top: 60px;
         margin-left: -10px;
     }
