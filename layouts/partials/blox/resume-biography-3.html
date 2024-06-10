@@ -74,8 +74,7 @@
       {{ end }}
     </div>
 
-    <div class="network-icon-container"></div>
-      <ul class="network-icon dark:text-zinc-100" style="margin-top: 55%;">
+    <ul class="network-icon dark:text-zinc-100" style="margin-top: 55%;">
         {{ range $person.profiles }}
         {{ $pack := or .icon_pack "fas" }}
         {{ $pack_prefix := $pack }}
@@ -99,7 +98,6 @@
         </li>
         {{ end }}
       </ul>
-    </div>
   </div>
   </div>
 
