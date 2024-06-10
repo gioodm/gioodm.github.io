@@ -11,8 +11,8 @@
 
 /* Increase font size of the logo text in the navigation bar */
 .navbar-brand {
-    font-size: 1.5em; /* Adjust the value as needed */
-    font-weight: bold; /* Optional: Make the text bold */
+    font-size: 1.8em;
+    font-weight: 300;
 }
 
 /* Apply CSS variables */
@@ -26,6 +26,7 @@ body {
 
 nav {
     font-family: var(--nav-font);
+    font-size: 1.3em
 }
 
 code, pre {
