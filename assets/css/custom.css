@@ -20,6 +20,7 @@
 
 .resume-biography {
     gap: 3rem; /* Adjust the gap between flex items */
+    padding: 2rem;
 }
 
 /* Adjust the positioning of the avatar and icons */
