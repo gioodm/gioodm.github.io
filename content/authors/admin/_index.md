@@ -36,7 +36,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/gioodm
   - icon: brands/linkedin
-    url: https://www.linkedin.com/giorgia-del-missier
+    url: https://www.linkedin.com/in/giorgia-del-missier
 
 interests:
   - Artificial Intelligence
