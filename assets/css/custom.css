@@ -18,52 +18,6 @@
     font-weight: 350;
 }
 
-.resume-biography {
-    gap: 10%; /* Adjust the gap between flex items */
-}
-
-/* Adjust the positioning of the avatar and icons */
-.avatar-wrapper {
-    margin-top: -20px; /* Adjust the top margin as needed */
-    margin-left: -50px; /* Adjust the left margin as needed */
-}
-
-.avatar {
-    width: 100%; /* Make the avatar image responsive */
-    height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
-}
-
-.network-icon-container {
-    margin-top: 65px; /* Adjust the top margin as needed */
-    margin-left: 20px; /* Adjust the left margin as needed */
-}
-
-.flex-auto {
-    margin-top: -40px; /* Adjust the top margin as needed */
-    margin-left: 100px; /* Adjust the left margin as needed */
-}
-
-/* Media queries for responsive design */
-@media screen and (max-width: 768px) {
-    .avatar-wrapper {
-        /* Adjust the avatar position for smaller screens */
-        margin-top: -10px;
-        margin-left: -50px;
-    }
-
-    .network-icon-container {
-        /* Adjust the icons position for smaller screens */
-        margin-top: 60px;
-        margin-left: -10px;
-    }
-
-    .flex-auto {
-        /* Adjust the bio, interests, and education position for smaller screens */
-        margin-top: -20px;
-        margin-left: 10px;
-    }
-}
-
 /* Apply CSS variables */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);

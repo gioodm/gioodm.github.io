@@ -18,7 +18,7 @@
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
 
-<div class="resume-biography px-3 flex flex-col md:flex-row justify-center">
+<div class="resume-biography px-3 flex flex-col md:flex-row justify-center gap-12">
   <div class="flex-none m-w-[130px] mx-auto md:mx-0">
 
   {{ $img := "" }}
@@ -43,7 +43,7 @@
     {{ if $avatar }}
 
     <div class="avatar-wrapper {{ if $img }}-mt-[105px]{{else}}mt-10{{end}}">
-      {{ $avatar_image := $avatar.Fill "1000x1000 Center" }}
+      {{ $avatar_image := $avatar.Crop "150x150 Center" }}
       <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}"
            width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}">
       {{with $person.status.icon}}<span class="avatar-emoji">{{.|emojify}}</span>{{end}}
@@ -74,32 +74,30 @@
       {{ end }}
     </div>
 
-    <div class="network-icon-container">
-      <ul class="network-icon dark:text-zinc-100">
-        {{ range $person.profiles }}
-        {{ $pack := or .icon_pack "fas" }}
-        {{ $pack_prefix := $pack }}
-        {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-          {{ $pack_prefix = "fa" }}
-        {{ end }}
-        {{ $link := .url | default .link }}
-        {{ $scheme := (urls.Parse $link).Scheme }}
-        {{ $target := "" }}
-        {{ if not $scheme }}
-          {{ $link = (.url | default .link) | relLangURL }}
-          {{ if eq (path.Ext $link) ".pdf" }}{{ $target = "target=\"_blank\" rel=\"noopener\"" }}{{ end }}
-        {{ else if in (slice "http" "https") $scheme }}
-          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-        {{ end }}
-        <li>
-          <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .icon }}"
-            {{ with .label }} data-toggle="tooltip" data-placement="top" title="{{.}}"{{ end }}>
-            {{ partial "functions/get_icon" (dict "name" .icon "attributes" "style=\"height: 1.5rem;\"")  }}
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
+    <ul class="network-icon dark:text-zinc-100">
+      {{ range $person.profiles }}
+      {{ $pack := or .icon_pack "fas" }}
+      {{ $pack_prefix := $pack }}
+      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+        {{ $pack_prefix = "fa" }}
+      {{ end }}
+      {{ $link := .url | default .link }}
+      {{ $scheme := (urls.Parse $link).Scheme }}
+      {{ $target := "" }}
+      {{ if not $scheme }}
+        {{ $link = (.url | default .link) | relLangURL }}
+        {{ if eq (path.Ext $link) ".pdf" }}{{ $target = "target=\"_blank\" rel=\"noopener\"" }}{{ end }}
+      {{ else if in (slice "http" "https") $scheme }}
+        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+      {{ end }}
+      <li>
+        <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .icon }}"
+           {{ with .label }} data-toggle="tooltip" data-placement="top" title="{{.}}"{{ end }}>
+          {{ partial "functions/get_icon" (dict "name" .icon "attributes" "style=\"height: 1.5rem;\"")  }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
   </div>
   </div>
 
@@ -120,7 +118,9 @@
     {{ end }}
 
 
-  <!-- <div class="grid grid-cols-2 gap-4 justify-between mt-6 dark:text-gray-300">
+
+
+  <div class="grid grid-cols-2 gap-4 justify-between mt-6 dark:text-gray-300">
 
     {{ with $person.interests }}
     <div class="">
@@ -152,7 +152,7 @@
     </div>
     {{ end }}
 
-  </div> -->
+  </div>
 
 </div>
 </div>
