@@ -36,6 +36,11 @@
     margin-top: -40px; /* Adjust the top margin as needed */
 }
 
+.bio-text {
+    max-width: 900px; /* Increase this value to make the text box wider */
+    margin: 0 auto; /* Center the text box */
+  }
+
 
 /* Apply CSS variables */
 h1, h2, h3, h4, h5, h6 {
