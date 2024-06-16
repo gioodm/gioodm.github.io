@@ -38,9 +38,12 @@
 }
 
 .network-icon li {
-        margin-top: 80px; /* Adjust the top margin as needed */
+        margin-top: 100px; /* Adjust the top margin as needed */
         margin-left: -50px; /* Adjust the left margin as needed */
-        @media (max-width: 800px);
+}
+
+.big-icon {
+    font-size: 5rem;
 }
 
 /* Apply CSS variables */
