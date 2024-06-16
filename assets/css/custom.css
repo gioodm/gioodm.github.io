@@ -39,11 +39,11 @@
 
 .network-icon li {
         margin-top: 100px; /* Adjust the top margin as needed */
-        margin-left: -50px; /* Adjust the left margin as needed */
+        margin-left: 0px; /* Adjust the left margin as needed */
 }
 
 .big-icon {
-    font-size: 5rem;
+    font-size: 5px;
 }
 
 /* Apply CSS variables */
