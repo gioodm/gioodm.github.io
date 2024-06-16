@@ -37,6 +37,10 @@ profiles:
     url: https://github.com/gioodm
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/giorgia-del-missier
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0005-6291-9877
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Giorgia-Del-Missier
 
 interests:
   - Artificial Intelligence
