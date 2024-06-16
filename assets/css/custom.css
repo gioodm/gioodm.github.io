@@ -18,8 +18,28 @@
     font-weight: 350;
 }
 
+.resume-biography {
+    gap: 10%; /* Adjust the gap between flex items */
+}
+
+/* Adjust the positioning of the avatar and icons */
+.avatar-wrapper {
+    margin-top: -20px; /* Adjust the top margin as needed */
+    margin-left: -50px; /* Adjust the left margin as needed */
+}
+
+.network-icon li {
+    margin-top: 100px; /* Adjust the top margin as needed */
+}
+
+.network-icon .big-icon {
+    font-size: 2rem;
+  }
+
 .bio-text {
-    max-width: 900px;
+    max-width: 1000px;
+    margin-top: -40px; /* Adjust the top margin as needed */
+    margin-left: 100px; /* Adjust the left margin as needed */
 }
 
 
