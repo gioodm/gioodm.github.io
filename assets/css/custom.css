@@ -18,16 +18,6 @@
     font-weight: 350;
 }
 
-/* custom.css */
-.custom-avatar-wrapper {
-    margin-left: -20px; /* Adjust this value as needed */
-}
-
-.custom-prose-container {
-    max-width: 800px; /* Adjust this value as needed */
-    margin: 0 auto; /* Center the container */
-}
-
 /* Apply CSS variables */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
