@@ -33,11 +33,10 @@
 }
 
 .network-icon .big-icon {
-    font-size: 2rem;
+    font-size: 5rem;
   }
 
-.bio-text {
-    max-width: 1000px;
+  .flex-auto {
     margin-top: -40px; /* Adjust the top margin as needed */
     margin-left: 100px; /* Adjust the left margin as needed */
 }
