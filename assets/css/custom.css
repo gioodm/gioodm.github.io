@@ -28,6 +28,14 @@
     margin-left: -50px; /* Adjust the left margin as needed */
 }
 
+.flex-auto {
+    margin-top: -40px; /* Adjust the top margin as needed */
+    margin-left: 100px; /* Adjust the left margin as needed */
+}
+
+.bio-text {
+    max-width: 1000px;
+
 /* Apply CSS variables */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
