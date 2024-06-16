@@ -40,7 +40,7 @@
 .network-icon li {
         margin-top: 80px; /* Adjust the top margin as needed */
         margin-left: -50px; /* Adjust the left margin as needed */
-        @media (max-width: 800px)
+        @media (max-width: 800px);
 }
 
 /* Apply CSS variables */
