@@ -34,7 +34,13 @@
 }
 
 .bio-text {
-    max-width: 1000px;
+    max-width: 800px;
+}
+
+.network-icon li {
+        margin-top: 65px; /* Adjust the top margin as needed */
+        margin-left: 20px; /* Adjust the left margin as needed */
+}
 
 /* Apply CSS variables */
 h1, h2, h3, h4, h5, h6 {
