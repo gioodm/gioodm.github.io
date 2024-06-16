@@ -32,10 +32,6 @@
     max-width: 900px;
 }
 
-.flex-auto {
-    margin-top: -40px; /* Adjust the top margin as needed */
-    margin-left: 100px; /* Adjust the left margin as needed */
-}
 
 /* Apply CSS variables */
 h1, h2, h3, h4, h5, h6 {
