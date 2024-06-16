@@ -33,12 +33,12 @@
     margin-left: 100px; /* Adjust the left margin as needed */
 }
 
-.bio-text {
-    max-width: 1000px;
-}
-
 .network-icon li {
         margin-top: 100px; /* Adjust the top margin as needed */
+}
+
+.bio-text {
+    max-width: 900px;
 }
 
 /* Apply CSS variables */
