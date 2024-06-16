@@ -34,10 +34,10 @@
 }
 
 .bio-text {
-    max-width: 900px;
+    max-width: 1000px;
 }
 
-.network-icon {
+.network-icon li {
         margin-top: 100px; /* Adjust the top margin as needed */
 }
 
