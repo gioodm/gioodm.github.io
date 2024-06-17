@@ -61,7 +61,8 @@ education:
     summary: |
       GPA: 8.5/10, cum laude
 
-      Thesis: WASP: A new Pipeline for Functional Annotation of Proteins using AlphaFold Structural Models
+      Thesis: 
+      WASP: A new Pipeline for Functional Annotation of Proteins using AlphaFold Structural Models
 
       Courses included:
       - Systems Biology and Modelling Biosystems
@@ -74,7 +75,8 @@ education:
     summary: |
       GPA: 110/110, cum laude
 
-      Thesis: Phenotype-driven Variant Prioritisation Tools: Analysis of Whole Exome Sequencing in Patients with Hereditary Optic Neuropathy
+      Thesis: 
+      Phenotype-driven Variant Prioritisation Tools: Analysis of Whole Exome Sequencing in Patients with Hereditary Optic Neuropathy
       
       Courses included:
       - Bioinformatics and Omics Technologies
