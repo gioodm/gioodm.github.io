@@ -83,28 +83,46 @@ education:
       - Programming, Statistics and Data Science
       - Molecular Biology and Genetics
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Computational Biologist
+    company_name: Imperial College London - Ledesma-Amaro group
+    company_url: https://www.rlalab.org/
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2022-11-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      Activities include:
+      - Design, development and implementation of WASP, a Python-based command-line pipeline for structure-based protein annotation
+      - Network analysis, statistical testing, and enrichment for protein function inference
+      - Use of REST APIs for web scraping
+      - Design and development of web applications with Python DASH
+      - Genome-scale Metabolic models curation and phylogenetic cross-organism comparison
+      - Communication of findings through regular presentations and reports
+      - Participation in the selection, evaluation and interview process of new candidates for collaboration
+      - Supervising and mentoring of students
+  - position: Lab technician
+    company_name: Maastricht Center for Systems Biology
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2021-06-01
+    date_end: 2021-09-30
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Lab activities include:
+      - PCR and quantitative PCR assays
+      - Molecular cloning, Gibson assembly and esiRNAs construction
+      - Lab resources management
+      - Preparation of weekly reports on experimental procedures
+  - position: Bioinformatician
+    company_name: IRCSS Institute of Neurological Sciences
+    company_url: ''
+    company_logo: ''
+    date_start: 2020-11-01
+    date_end: 2021-04-31
+    summary: |
+      Activities include:
+      - Whole-Exome Sequencing data analysis for variant analysis
+      - Evaluation of phenotype-driven tools for variant prioritisation
+      - Python, R and Unix coding to streamline Next Generation Sequencing data analysis
+      - Preparation of regular reports and presentations to communicate findings
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
