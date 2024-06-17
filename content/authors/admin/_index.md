@@ -99,7 +99,7 @@ work:
       - Communication of findings through regular presentations and reports
       - Participation in the selection, evaluation and interview process of new candidates for collaboration
       - Supervising and mentoring of students
-  - position: Lab technician
+  - position: Lab Technician
     company_name: Maastricht Center for Systems Biology
     company_url: ''
     company_logo: ''
