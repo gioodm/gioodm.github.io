@@ -116,7 +116,7 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2020-11-01
-    date_end: 2021-04-31
+    date_end: 2021-04-30
     summary: |
       Activities include:
       - Whole-Exome Sequencing data analysis for variant analysis
