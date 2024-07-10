@@ -199,7 +199,7 @@ awards:
     certificate_url: https://graphacademy.neo4j.com/c/da9e5162-3a72-4c13-a9bc-ea0515986d11/
     date: '2023-11-21'
     awarder: Neo4j
-    icon: "custom/neo4j"
+    icon: neo4j
     summary: |
      Neo4j is a graph database management system that uses graph structures—comprising nodes, edges, and properties—to represent and store data. It is designed for handling large-scale connected data and is renowned for its high performance and scalability.
      Learning objectives:
