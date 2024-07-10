@@ -176,7 +176,7 @@ awards:
     certificate_url: https://learn.nvidia.com/certificates?id=MSkAhwERQMG6UU4Ajpb6iw
     date: '2024-07-05'
     awarder: NVIDIA
-    icon: custom/nvidia
+    icon: "custom/nvidia"
     summary: |
       In this workshop, I learned the fundamental tools and techniques for accelerating C/C++ applications on massively parallel GPUs using CUDA. I gained skills in writing and parallelizing code, optimizing memory migration between the CPU and GPU, and applying these techniques to accelerate a CPU-only particle simulator for significant performance gains. Additional resources were provided for further learning and development of GPU-accelerated applications.
       Learning Objectives:
