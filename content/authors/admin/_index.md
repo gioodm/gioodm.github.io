@@ -124,8 +124,8 @@ work:
       - Python, R and Unix coding to streamline Next Generation Sequencing data analysis
       - Preparation of regular reports and presentations to communicate findings
 
-Skills
-Add your own SVG icons to `assets/media/icons/`
+# Skills
+# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
