@@ -176,7 +176,7 @@ awards:
     certificate_url: https://learn.nvidia.com/certificates?id=MSkAhwERQMG6UU4Ajpb6iw
     date: '2024-07-05'
     awarder: NVIDIA
-    icon: nvidia
+    icon: "custom/nvidia"
     summary: |
       In this workshop, I learned the fundamental tools and techniques for accelerating C/C++ applications on massively parallel GPUs using CUDA. I gained skills in writing and parallelizing code, optimizing memory migration between the CPU and GPU, and applying these techniques to accelerate a CPU-only particle simulator for significant performance gains. Additional resources were provided for further learning and development of GPU-accelerated applications.
       Learning Objectives:
@@ -199,7 +199,7 @@ awards:
     certificate_url: https://graphacademy.neo4j.com/c/da9e5162-3a72-4c13-a9bc-ea0515986d11/
     date: '2023-11-21'
     awarder: Neo4j
-    icon: neo4j
+    icon: "custom/neo4j"
     summary: |
      Neo4j is a graph database management system that uses graph structures—comprising nodes, edges, and properties—to represent and store data. It is designed for handling large-scale connected data and is renowned for its high performance and scalability.
      Learning objectives:
