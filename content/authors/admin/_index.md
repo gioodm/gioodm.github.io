@@ -130,13 +130,13 @@ skills:
   - name: Programming Languages
     items:
       - name: Python
-        icon: python
+        icon: devicon/python
       - name: R
-        icon: chart-bar
+        icon: devicon/rstudio
       - name: Unix
-        icon: chart-bar
+        icon: devicon/linux
       - name: MATLAB
-        icon: circle-stack
+        icon: devicon/matlab
   - name: Developer software
     items:
       - name: Hiking
