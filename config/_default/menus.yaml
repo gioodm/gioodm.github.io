@@ -9,16 +9,16 @@ main:
     weight: 10
   - name: Skills
     url: /#skills
-    weight: 13
+    weight: 11
   - name: Projects
     url: projects/
-    weight: 30
+    weight: 12
   - name: Papers
     url: /#papers
-    weight: 11
+    weight: 13
   - name: Hobbies
     url: hobbies/
-    weight: 40
+    weight: 14
   - name: Experience
     url: experience/
-    weight: 20
+    weight: 15
