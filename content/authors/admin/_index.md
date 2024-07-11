@@ -137,30 +137,22 @@ skills:
         icon: devicon/linux
       - name: MATLAB
         icon: devicon/matlab
-  - name: Developer software
+  - name: Developer tools
     items:
-      - name: Hiking
-        icon: person-simple-walk
-      - name: Cats
-        icon: cat
-      - name: Photography
-        icon: camera
-  - name: Developer software
+      - name: Git & GitHub
+        icon: devicon/github
+      - name: HTML/CSS
+        icon: devicon/html5
+      - name: REST APIs
+        icon: devicon/fastapi
+      - name: Neo4j & Cypher
+        icon: devicon/neo4j
+  - name: Productivity softwares
     items:
-      - name: Hiking
-        icon: person-simple-walk
-      - name: Cats
-        icon: cat
-      - name: Photography
-        icon: camera
-  - name: Developer software
-    items:
-      - name: Hiking
-        icon: person-simple-walk
-      - name: Cats
-        icon: cat
-      - name: Photography
-        icon: camera
+      - name: Latex
+        icon: devicon/latex
+      - name: Microsoft Office
+        icon: devicon/readthedocs
 
 
 # Awards.
