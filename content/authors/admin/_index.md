@@ -130,7 +130,7 @@ skills:
   - name: Programming Languages
     items:
       - name: Python
-        icon: code-bracket
+        icon: python
       - name: R
         icon: chart-bar
       - name: Unix
