@@ -33,8 +33,33 @@ sections:
   - block: features
     content:
       title: Skills
-    design:
-      show_skill_percentage: false
+      items:
+      - name: Programming Languages
+        items:
+        - name: Python
+          icon: devicon/python
+        - name: R
+          icon: devicon/rstudio
+        - name: Unix
+          icon: devicon/linux
+        - name: MATLAB
+          icon: devicon/matlab
+      - name: Developer tools
+        items:
+          - name: Git & GitHub
+            icon: devicon/github
+          - name: HTML/CSS
+            icon: devicon/html5
+          - name: REST APIs
+            icon: devicon/fastapi
+          - name: Neo4j & Cypher
+            icon: devicon/neo4j
+      - name: Productivity softwares
+        items:
+          - name: Latex
+            icon: devicon/latex
+          - name: Microsoft Office
+            icon: devicon/readthedocs
   # - block: collection
   #   id: papers
   #   content:
