@@ -30,10 +30,9 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: features
+  - block: resume-skills
     content:
       title: Skills
-      subtitle: Section subtitle
       items:
         - name: Python
           icon: devicon/python
@@ -59,6 +58,8 @@ sections:
             icon: devicon/latex
           - name: Microsoft Office
             icon: devicon/readthedocs
+    design:
+      columns: 3
   # - block: collection
   #   id: papers
   #   content:
