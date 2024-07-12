@@ -35,7 +35,7 @@ sections:
       title: Skills
     design:
       columns: 3
-      show_skill_percentage: false
+      show_skill_percentage: true
   # - block: collection
   #   id: papers
   #   content:
