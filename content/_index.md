@@ -31,6 +31,7 @@ sections:
           position: center
           parallax: false
   - block: resume-skills
+    id: skills
     content:
       title: Skills
     design:
