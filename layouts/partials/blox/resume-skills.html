@@ -1,35 +1,9 @@
-{{/* Hugo Blox: Skills */}}
-{{/* Documentation: https://hugoblox.com/blocks/ */}}
-{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
-
-{{/* Initialise */}}
-{{ $page := .wcPage }}
-{{ $block := .wcBlock }}
-{{ $author := $block.content.username | default "admin" }}
-
-{{ $person_page_path := (printf "/authors/%s" $author) }}
-{{ $person_page := site.GetPage $person_page_path }}
-{{ if not $person_page }}
-{{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your Skill block and create an associated author page if one does not already exist. See https://docs.hugoblox.com/page-builder/#about " $person_page_path }}
-{{end}}
-{{ $skills := $person_page.Params.skills }}
-{{ $show_show_skill_percentage := $block.design.show_skill_percentage | default true }}
-
-<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
-
-  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-    {{ $block.content.title | markdownify | emojify }}
-  </div>
-
-  {{ with $block.content.text }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
-</div>
-
 <div class="flex flex-col lg:flex-row items-center max-w-prose mx-auto gap-3">
 
   {{ range $skills }}
   {{ $color := .color | default "" }}
   {{ $color_border := .color_border | default "" }}
-  <div class="w-full lg:w-1/3">
+  <div class="w-full"> <!-- Remove lg:w-1/2 or lg:w-1/3 -->
     <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">
       {{ .name | markdownify | emojify }}
       {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
@@ -63,4 +37,3 @@
   </div>
 {{ end }}
 </div>
-
