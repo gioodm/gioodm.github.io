@@ -33,9 +33,8 @@ sections:
   - block: features
     content:
       title: Skills
+      subtitle: Section subtitle
       items:
-      - name: Programming Languages
-        items:
         - name: Python
           icon: devicon/python
         - name: R
@@ -44,8 +43,8 @@ sections:
           icon: devicon/linux
         - name: MATLAB
           icon: devicon/matlab
-      - name: Developer tools
-        items:
+      subtitle: Section subtitle
+      items:
           - name: Git & GitHub
             icon: devicon/github
           - name: HTML/CSS
@@ -54,8 +53,8 @@ sections:
             icon: devicon/fastapi
           - name: Neo4j & Cypher
             icon: devicon/neo4j
-      - name: Productivity softwares
-        items:
+      subtitle: Section subtitle
+      items:
           - name: Latex
             icon: devicon/latex
           - name: Microsoft Office
