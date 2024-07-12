@@ -30,7 +30,7 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: resume-skills
+  - block: features
     content:
       title: Skills
     design:
