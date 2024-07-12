@@ -1,11 +1,11 @@
-<div class="flex flex-col items-center max-w-screen-lg mx-auto gap-3 justify-center">
+<div class="flex flex-col items-center mx-auto gap-3 justify-center" style="max-width: 1200px;">
   <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
     {{ $block.content.title | markdownify | emojify }}
   </div>
   {{ with $block.content.text }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
 </div>
 
-<div class="flex flex-col lg:flex-row items-center max-w-screen-lg mx-auto gap-8"><!-- Increased gap from 3 to 8 -->
+<div class="flex flex-col lg:flex-row items-center mx-auto gap-8" style="max-width: 1200px;"><!-- Increased gap from 3 to 8 -->
   {{ range $skills }}
   {{ $color := .color | default "" }}
   {{ $color_border := .color_border | default "" }}
