@@ -33,33 +33,9 @@ sections:
   - block: resume-skills
     content:
       title: Skills
-      items:
-        - name: Python
-          icon: devicon/python
-        - name: R
-          icon: devicon/rstudio
-        - name: Unix
-          icon: devicon/linux
-        - name: MATLAB
-          icon: devicon/matlab
-      subtitle: Section subtitle
-      items:
-          - name: Git & GitHub
-            icon: devicon/github
-          - name: HTML/CSS
-            icon: devicon/html5
-          - name: REST APIs
-            icon: devicon/fastapi
-          - name: Neo4j & Cypher
-            icon: devicon/neo4j
-      subtitle: Section subtitle
-      items:
-          - name: Latex
-            icon: devicon/latex
-          - name: Microsoft Office
-            icon: devicon/readthedocs
     design:
       columns: 3
+      show_skill_percentage: false
   # - block: collection
   #   id: papers
   #   content:
