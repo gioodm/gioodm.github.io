@@ -15,7 +15,7 @@
 {{ $skills := $person_page.Params.skills }}
 {{ $show_show_skill_percentage := $block.design.show_skill_percentage | default true }}
 
-<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center" style="max-width: 1200px;>
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center" style="max-width: 1200px;"">
 
   <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
     {{ $block.content.title | markdownify | emojify }}
@@ -24,7 +24,7 @@
   {{ with $block.content.text }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
 </div>
 
-<div class="flex flex-col lg:flex-row items-center max-w-prose mx-auto gap-3" style="max-width: 1200px;>
+<div class="flex flex-col lg:flex-row items-center max-w-prose mx-auto gap-3" style="max-width: 1200px;">
 
   {{ range $skills }}
   {{ $color := .color | default "" }}
