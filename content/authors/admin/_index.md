@@ -160,6 +160,19 @@ skills:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: 'Generative AI with Diffusion Models'
+    url: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-14+V1
+    certificate_url: https://learn.nvidia.com/certificates?id=qLXUammJRM65zy4hfwBeQw
+    date: '2024-07-16'
+    awarder: NVIDIA
+    icon: brands/nvidia
+    summary: |
+      In this workshop, I learned more about Generative AI and its applications in denoising diffusion models, which are a popular choice for text-to-image pipelines.
+      Learning Objectives
+        - Build a U-Net to generate images from pure noise
+        - Improve the quality of generated images with the denoising diffusion process
+        - Control the image output with context embeddings
+        - Generate images from English text prompts using the Contrastive Language—Image Pretraining (CLIP) neural network
   - title: 'Fundamentals of Accelerated Computing with CUDA C/C++'
     url: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-AC-01+V1
     certificate_url: https://learn.nvidia.com/certificates?id=MSkAhwERQMG6UU4Ajpb6iw
