@@ -147,12 +147,6 @@ skills:
         icon: devicon/fastapi
       - name: Neo4j & Cypher
         icon: devicon/neo4j
-  - name: Productivity softwares
-    items:
-      - name: Latex
-        icon: devicon/latex
-      - name: Microsoft Office
-        icon: devicon/readthedocs
 
 
 # Awards.
