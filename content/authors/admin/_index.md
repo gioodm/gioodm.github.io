@@ -206,10 +206,11 @@ awards:
 
 
 
-Ciao! I am a computational biologist, and I am passionate about solving sustainability challenges in bioengineering using ML and AI. Currently, I am leading the computational team at the [Ledesma-Amaro Synthetic Biology group](https://www.rlalab.org/) at Imperial.
+Ciao! I am a computational biologist, and I am passionate about solving sustainability challenges in bioengineering using ML and AI. Currently, I am leading the computational team at the [Ledesma-Amaro Synthetic Biology group](https://www.rlalab.org/) at Imperial College London
 
-I have a strong background in bioinformatics, modelling and molecular biology and I am skilled in data analysis using Python and R.  
-I'm committed to promoting open, collaborative science and create sustainable solutions to our planet’s environmental challenges. I'm always eager to discuss ideas and collaborate in this growing field!
+I have a strong background in bioinformatics, modelling and molecular biology and I am skilled in data analysis using Python and R.
+
+I'm committed to promoting open, collaborative science and create sustainable solutions to our planet’s environmental challenges. I'm always open to discuss ideas and collaborate in this growing field!
 
 
 
