@@ -204,9 +204,14 @@ awards:
       - Best practices for designing and implementing graph data models to represent complex relationships and ensure data integrity.
 ---
 
+
+
 Ciao! I am a computational biologist, and I am passionate about solving sustainability challenges in the bioengineering field using machine learning and artificial intelligence. Since November 2022, I am the lead of the computational team at the Ledesma-Amaro Synthetic Biology group at Imperial College London.
 
 I have a strong background in bioinformatics, modelling and molecular biology and I am skilled in data analysis using Python and R.
 
 I'm committed to promoting open, collaborative science and using my skills to create sustainable solutions for our planet’s environmental challenges. I'm always eager to discuss ideas and collaborate in this growing field.
+
+
+
 
