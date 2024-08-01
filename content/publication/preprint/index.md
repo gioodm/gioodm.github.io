@@ -1,12 +1,12 @@
 ---
-title: "An example preprint / working paper"
+title: "WASP: A pipeline for functional annotation based on AlphaFold structural models"
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
+date: "2024"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+# publishDate: "2017-01-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -17,13 +17,13 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Protein function annotation is a crucial aspect of understanding biological processes and mechanisms. Traditionally, annotations have been derived from sequence homology, providing valuable insights but often leaving gaps even in well-characterised organisms. With the emergence of AlphaFold, rapid generation of structural models are offering a new paradigm for inferring protein function based on structural homology. Here, we present WASP, a pipeline leveraging structural homology to enhance protein annotation at scale, providing a more comprehensive understanding of protein functions across various organisms. WASP relies on network topology for better accuracy and more robust statistical power. On hidden labels, WASP achieved superior F1 scores compared to state-of-the-art tools using sequence homology. On a cohort of 20 model organisms relevant for industrial applications, WASP could retrieve 20-30% of uncharacterised proteins. WASP utility was further demonstrated in genome-scale model curation where it could identify native candidates for 75% to 100% of orphan reactions. Together, WASP highlights the importance of structural homology in systematically identifying novel annotations which were previously missed by sequence-based tools.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Large Language Models
+ Genome annotation, structural alignment, genome-scale model, orphan reaction, bioproduction, alphafold, synthetic biology, systems biology.
 
 featured: true
 
@@ -59,13 +59,13 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
-This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+<!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
 
 {{% callout note %}}
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
