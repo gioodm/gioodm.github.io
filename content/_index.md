@@ -39,9 +39,9 @@ sections:
         Currently, I'm working on several projects, including:
 
         - **Sustainable Proteins**: Applying AI to develop alternative food proteins.
-        - Protein Design: Using _in-silico_ directed evolution to improve protein functionality.
-        - Promoter Prediction: Optimising neural network models for bacterial promoter prediction.
-        - WASP: Developed a pipeline for protein functional annotation based on AlphaFold structural models.
+        - **Protein Design**: Using _in-silico_ directed evolution to improve protein functionality.
+        - **Promoter Prediction**: Optimising neural network models for bacterial promoter prediction.
+        - **WASP**: Developed a pipeline for protein functional annotation based on AlphaFold structural models.
         
         I'm passionate about advancing these fields and always open to discussing ideas and collaborating with new colleagues.
     design:
