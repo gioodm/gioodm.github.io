@@ -7,11 +7,8 @@ main:
   - name: Home
     url: /
     weight: 10
-  # - name: Skills
-  #   url: /#skills
-  #   weight: 11
   - name: Projects
-    url: projects/
+    url: /#projects
     weight: 12
   - name: Papers
     url: /#papers
