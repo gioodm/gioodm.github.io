@@ -32,7 +32,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '🔬📚 My Research'
+      title: '🔬 My Research'
       subtitle: ''
       text: |-
         My research lies at the intersection of bioengineering, structural biology, and machine learning. My long-term goal is to contribute to creating a circular bio-economy, and I believe synthetic biology is the key to a greener future.  
