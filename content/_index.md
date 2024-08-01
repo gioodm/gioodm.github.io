@@ -32,14 +32,18 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '🔬 My Research'
+      title: '🔬📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research lies at the intersection of bioengineering, structural biology, and machine learning. My long-term goal is to contribute to creating a circular bio-economy, and I believe synthetic biology is the key to a greener future.  
+        Currently, I'm working on several projects, including:
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        - **Sustainable Proteins**: Applying AI to develop alternative food proteins.
+        - Protein Design: Using _in-silico_ directed evolution to improve protein functionality.
+        - Promoter Prediction: Optimising neural network models for bacterial promoter prediction.
+        - WASP: Developed a pipeline for protein functional annotation based on AlphaFold structural models.
         
-        Please reach out to collaborate 😃
+        I'm passionate about advancing these fields and always open to discussing ideas and collaborating with new colleagues.
     design:
       columns: '1'
   # - block: collection
