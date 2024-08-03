@@ -62,7 +62,7 @@ projects:
 # slides: example
 ---
 
-## Results summary
+### Results summary
 
 - **WASP Overview**: WASP is a novel pipeline for protein functional annotation starting from AlphaFold structure models. Using the output of state-of-the-art structural annotation tools, the proteome of a query organism is linked to structural homologs present in the AlphaFold database, creating a network whose topology is exploited to perform functional enrichment. In addition, WASP provides a holistic and comprehensive characterisation of proteins, using a diverse set of descriptors that provide a rich understanding of their molecular function.
 
