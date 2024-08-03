@@ -1,9 +1,9 @@
 ---
 title: WASP
 date: 2024-07-10
-image:
-  caption: " "
-  focal_point: Smart
+#image:
+#  caption: " "
+#  focal_point: Smart
 external_link: https://gioodm.github.io/publication/preprint/
 #links:
 #- icon: github
