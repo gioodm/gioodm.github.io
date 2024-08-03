@@ -4,12 +4,12 @@ date: 2024-07-10
 image:
   caption: " "
   focal_point: Smart
-external_link: 
-links:
-- icon: github
-  icon_pack: fab
-  name: Code
-  url: https://github.com/gioodm/WASP
+external_link: https://gioodm.github.io/publication/preprint/
+#links:
+#- icon: github
+#  icon_pack: fab
+#  name: Code
+#  url: https://github.com/gioodm/WASP
 tags:
   - genome annotation
   - structural alignment

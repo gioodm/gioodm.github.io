@@ -1,5 +1,5 @@
 ---
-title: "WASP: A pipeline for functional annotation based on AlphaFold structural models"
+title: "WASP: A pipeline for functional annotation based on AlphaFold structural models (_in review_)"
 authors:
 - Del Missier, Shabestary, Ledesma-Amaro
 date: "2024-07-01T00:00:00Z"
@@ -23,7 +23,7 @@ abstract: Protein function annotation is a crucial aspect of understanding biolo
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
- genome annotation, structural alignment, genome-scale model, orphan reaction, bioproduction, alphafold, synthetic biology, systems biology.
+ genome annotation, structural alignment, genome-scale model, alphafold
 
 featured: true
 
