@@ -10,7 +10,7 @@ tags:
   - MATLAB modeling
 
 image:
-  caption: 'Image sourced from [The Scientist](https://www.the-scientist.com/how-scientists-are-tackling-brain-imaging-s-replication-problem-68942)'
+  caption: 'Image sourced from [eLife](https://elifesciences.org/articles/48932)'
   focal_point: ""
   preview_only: false
 ---
