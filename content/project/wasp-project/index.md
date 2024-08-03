@@ -4,7 +4,12 @@ date: 2024-07-10
 image:
   caption: " "
   focal_point: Smart
-external_link: https://github.com/scikit-learn/scikit-learn
+external_link: 
+links:
+- icon: github
+  icon_pack: fab
+  name: Code
+  url: https://github.com/gioodm/WASP
 tags:
   - Hugo
   - Wowchemy
