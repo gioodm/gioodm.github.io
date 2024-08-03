@@ -2,7 +2,7 @@
 title: "WASP: A pipeline for functional annotation based on AlphaFold structural models"
 authors:
 - Del Missier, Shabestary, Ledesma-Amaro
-date: "2024-07-01T00:00:00Z"
+date: "2024-07-10T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
