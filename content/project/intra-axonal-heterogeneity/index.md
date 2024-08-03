@@ -2,15 +2,8 @@
 title: Modeling intra-axonal heteogeneity
 date: 2022-07-01
 external_link: 
-links:
-- icon: github
-  icon_pack: fab
-  name: Code
-  url: https://github.com/gioodm/Project_group_2B
-- icon: document
-  icon_pack: academicons
-  name: PDF
-  url: uploads/PRO4003_final_report.pdf
+url_pdf: uploads/PRO4003_final_report.pdf
+url_code: https://github.com/gioodm/Project_group_2B
 tags:
   - Computational neuroscience
   - Action potential
