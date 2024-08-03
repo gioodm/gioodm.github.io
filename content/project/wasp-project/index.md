@@ -1,13 +1,9 @@
 ---
-title: Pandas
-date: 2023-10-26
-external_link: https://github.com/pandas-dev/pandas
+title: WASP
+date: 2024-07-10
+external_link: https://github.com/gioodm/WASP
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  genome annotation, structural alignment, genome-scale model, orphan reaction, bioproduction, alphafold, synthetic biology, systems biology.
 ---
 
 Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
-
-<!--more-->
