@@ -11,11 +11,13 @@ links:
   name: Code
   url: https://github.com/gioodm/WASP
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  - genome annotation
+  - structural alignment
+  - alphafold
+  - genome-scale model
+
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+A python-based software designed for comprehensive organism annotation at the whole-proteome level based on structural homology.
 
 <!--more-->
