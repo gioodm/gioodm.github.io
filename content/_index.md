@@ -54,7 +54,7 @@ sections:
         folders:
           - project
     design:
-      view: compact
+      view: article-grid
       columns: 4
   - block: collection
     id: papers
