@@ -7,7 +7,6 @@ tags:
   - Machine Learning
   - Sound classification
   - fMRI data
-  - MATLAB modeling
 
 image:
   caption: 'Image sourced from [eLife](https://elifesciences.org/articles/48932)'
