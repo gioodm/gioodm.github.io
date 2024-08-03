@@ -9,7 +9,7 @@ tags:
   - fMRI data
 
 image:
-  caption: 'Image sourced from [eLife](https://elifesciences.org/articles/48932)'
+  caption: 'Image sourced from https://elifesciences.org/articles/48932'
   focal_point: ""
   preview_only: false
 ---
