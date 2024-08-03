@@ -6,7 +6,7 @@ cms_exclude: true
 # type: landing
 
 # View
-view: compact
+view: card
 
 # design:
 #   # Section spacing
