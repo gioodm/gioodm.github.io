@@ -9,6 +9,11 @@ tags:
   - Action potential
   - Myelin
   - MATLAB modeling
+
+image:
+  caption: 'Figure created with BioRender.'
+  focal_point: ""
+  preview_only: false
 ---
 
 Investigating the impact of myelination variations along a single axon on action potential (AP) conduction

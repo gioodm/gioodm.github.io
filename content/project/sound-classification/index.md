@@ -8,6 +8,11 @@ tags:
   - Sound classification
   - fMRI data
   - MATLAB modeling
+
+image:
+  caption: 'Image sourced from [The Scientist](https://www.the-scientist.com/how-scientists-are-tackling-brain-imaging-s-replication-problem-68942)'
+  focal_point: ""
+  preview_only: false
 ---
 
 Evaluating various ML methods in classifying sound categories based on fMRI data from brainstem regions.
