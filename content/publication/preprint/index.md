@@ -17,7 +17,7 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Protein function annotation is a crucial aspect of understanding biological processes and mechanisms. Traditionally, annotations have been derived from sequence homology, providing valuable insights but often leaving gaps even in well-characterised organisms. With the emergence of AlphaFold, rapid generation of structural models are offering a new paradigm for inferring protein function based on structural homology. Here, we present WASP, a pipeline leveraging structural homology to enhance protein annotation at scale, providing a more comprehensive understanding of protein functions across various organisms. WASP relies on network topology for better accuracy and more robust statistical power. On hidden labels, WASP achieved superior F1 scores compared to state-of-the-art tools using sequence homology. On a cohort of 20 model organisms relevant for industrial applications, WASP could retrieve 20-30% of uncharacterised proteins. WASP utility was further demonstrated in genome-scale model curation where it could identify native candidates for 75% to 100% of orphan reactions. Together, WASP highlights the importance of structural homology in systematically identifying novel annotations which were previously missed by sequence-based tools.
+# abstract: Protein function annotation is a crucial aspect of understanding biological processes and mechanisms. Traditionally, annotations have been derived from sequence homology, providing valuable insights but often leaving gaps even in well-characterised organisms. With the emergence of AlphaFold, rapid generation of structural models are offering a new paradigm for inferring protein function based on structural homology. Here, we present WASP, a pipeline leveraging structural homology to enhance protein annotation at scale, providing a more comprehensive understanding of protein functions across various organisms. WASP relies on network topology for better accuracy and more robust statistical power. On hidden labels, WASP achieved superior F1 scores compared to state-of-the-art tools using sequence homology. On a cohort of 20 model organisms relevant for industrial applications, WASP could retrieve 20-30% of uncharacterised proteins. WASP utility was further demonstrated in genome-scale model curation where it could identify native candidates for 75% to 100% of orphan reactions. Together, WASP highlights the importance of structural homology in systematically identifying novel annotations which were previously missed by sequence-based tools.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -30,7 +30,7 @@ featured: true
 links:
 - name: Custom Link
   url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+# url_pdf: http://arxiv.org/pdf/1512.04133v1
 url_code: 'https://github.com/gioodm/WASP'
 # url_dataset: '#'
 # url_poster: '#'
@@ -41,10 +41,10 @@ url_code: 'https://github.com/gioodm/WASP'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
-  focal_point: ""
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+#   focal_point: ""
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -52,7 +52,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- internal-project
+- wasp-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
