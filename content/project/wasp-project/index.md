@@ -6,4 +6,4 @@ tags:
   genome annotation, structural alignment, genome-scale model, orphan reaction, bioproduction, alphafold, synthetic biology, systems biology.
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+A python-based software designed for comprehensive organism annotation at the whole-proteome level based on structural homology.
