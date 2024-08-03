@@ -1,7 +1,7 @@
 ---
 title: WASP
 date: 2024-07-10
-external_link: https://github.com/gioodm/WASP
+# external_link: https://github.com/gioodm/WASP
 tags:
   - genome annotation
   - structural alignment
