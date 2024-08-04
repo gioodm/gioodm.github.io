@@ -175,7 +175,7 @@ awards:
     awarder: NVIDIA
     icon: brands/nvidia
     summary: |
-      In this workshop, I learned the fundamental tools and techniques for accelerating C/C++ applications on massively parallel GPUs using CUDA. I gained skills in writing and parallelizing code, optimising memory migration between the CPU and GPU, and applying these techniques to accelerate a CPU-only particle simulator for significant performance gains.
+      In this workshop, I learned the fundamental tools and techniques for accelerating C/C++ applications on massively parallel GPUs using CUDA. I gained skills in writing and parallelizing code, optimising memory migration between the CPU and GPU, and applying these techniques to accelerate a CPU-only particle simulator for significant performance gains.  
       Learning Objectives:
        - Write code for execution on a GPU accelerator.
        - Express data and instruction-level parallelism in C/C++ using CUDA.
