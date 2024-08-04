@@ -14,7 +14,7 @@ image:
   preview_only: false
 ---
 
-Investigating pathways associated with isobutanol tolerance in *Saccharomyces cerevisiae* to enhance biofuel production.
+Investigating pathways associated with isobutanol tolerance in *S. cerevisiae* to enhance biofuel production.
 
 ### Summary
   
