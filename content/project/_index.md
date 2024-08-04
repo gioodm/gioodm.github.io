@@ -8,9 +8,9 @@ cms_exclude: true
 # View
 view: card
 
-# design:
-#   # Section spacing
-#   spacing: '5rem'
+design:
+  # Section spacing
+  spacing: '5rem'
 
 # # Page sections
 # sections:
