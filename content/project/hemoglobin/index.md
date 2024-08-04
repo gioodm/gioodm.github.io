@@ -19,10 +19,10 @@ Computational analysis of the hemoglobin structure complex
 
 ### Summary
 
-#### Introduction
+#### **Background**
 The report provides a comprehensive computational analysis of the hemoglobin complex, focusing on its structural properties and interactions within the human proteome. The primary objectives are to identify key components that stabilize the hemoglobin tetramer, understand the interactions between protein monomers and heme groups, and explore the connectivity of hemoglobin subunits in various biological pathways.
 
-#### Methods
+#### **Materials and Methods**
 1. **Data Collection**:
    - Structural data for hemoglobin were obtained from the Protein Data Bank (PDB), specifically using the hemoglobin PDB structure (ID: 1GZX).
    - DSSP (Define Secondary Structure of Proteins) files were generated for the full hemoglobin, all possible trimers, and each monomer.
@@ -36,7 +36,7 @@ The report provides a comprehensive computational analysis of the hemoglobin com
 4. **Protein-Protein Interaction Network**:
    - Network metrics such as betweenness centrality, node degree, and clustering coefficient were computed to analyse the connectivity of hemoglobin subunits within the human proteome.
 
-#### Results
+#### **Results**
 1. **Structural Analysis of Hemoglobin**:
    - Hemoglobin is composed of two α and two β polypeptide chains, each associated with a heme group.
    - The heme group is situated inside a hydrophobic pocket between the E and F helices of each chain.
