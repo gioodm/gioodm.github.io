@@ -1,5 +1,5 @@
 ---
-title: Isobutabol-tolerance in S. cerevisiae
+title: Isobutabol tolerance in Saccharomyces cerevisiae
 date: 2022-06-01
 external_link: 
 url_pdf: uploads/Isobutanol_tolerance_Scerevisiae.pdf
@@ -7,7 +7,6 @@ tags:
   - Network biology
   - Saccharomyces cerevisiae
   - Biofuel production
-  - genome-scale metabolic models
 
 image:
   caption: 'Top scoring active subnetwork in WT *S. cerevisiae*.'
@@ -15,7 +14,7 @@ image:
   preview_only: false
 ---
 
-RNA-sequencing dataset analysis and metabolic pathway analysis of patients with dilated cardiomyopathy
+Investigating pathways associated with isobutanol tolerance in *Saccharomyces cerevisiae* to enhance biofuel production.
 
 ### Summary
   
