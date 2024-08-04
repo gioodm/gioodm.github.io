@@ -84,7 +84,7 @@ education:
       - Molecular Biology and Genetics
 work:
   - position: Computational Biologist
-    company_name: Imperial College London - Ledesma-Amaro group
+    company_name: Imperial College London - Ledesma-Amaro Synthetic Biology group
     company_url: https://www.rlalab.org/
     company_logo: ''
     date_start: 2022-11-01
@@ -162,8 +162,8 @@ awards:
     awarder: NVIDIA
     icon: brands/nvidia
     summary: |
-      In this workshop, I learned more about Generative AI and its applications in denoising diffusion models, which are a popular choice for text-to-image pipelines.
-      Learning Objectives
+      In this workshop, I learned more about Generative AI and its applications in denoising diffusion models, which are a popular choice for text-to-image pipelines.  
+      Learning Objectives:
         - Build a U-Net to generate images from pure noise
         - Improve the quality of generated images with the denoising diffusion process
         - Control the image output with context embeddings
@@ -175,7 +175,7 @@ awards:
     awarder: NVIDIA
     icon: brands/nvidia
     summary: |
-      In this workshop, I learned the fundamental tools and techniques for accelerating C/C++ applications on massively parallel GPUs using CUDA. I gained skills in writing and parallelizing code, optimizing memory migration between the CPU and GPU, and applying these techniques to accelerate a CPU-only particle simulator for significant performance gains. Additional resources were provided for further learning and development of GPU-accelerated applications.
+      In this workshop, I learned the fundamental tools and techniques for accelerating C/C++ applications on massively parallel GPUs using CUDA. I gained skills in writing and parallelizing code, optimizing memory migration between the CPU and GPU, and applying these techniques to accelerate a CPU-only particle simulator for significant performance gains. Additional resources were provided for further learning and development of GPU-accelerated applications.  
       Learning Objectives:
        - Write code for execution on a GPU accelerator.
        - Express data and instruction-level parallelism in C/C++ using CUDA.
@@ -198,7 +198,7 @@ awards:
     awarder: Neo4j
     icon: neo4j
     summary: |
-     Neo4j is a graph database management system that uses graph structures—comprising nodes, edges, and properties—to represent and store data. It is designed for handling large-scale connected data and is renowned for its high performance and scalability.
+     Neo4j is a graph database management system that uses graph structures—comprising nodes, edges, and properties—to represent and store data. It is designed for handling large-scale connected data and is renowned for its high performance and scalability.  
      Learning objectives:
       - Understanding graph theory, the fundamentals of graph databases, and their differences from traditional relational databases.
       - Neo4j's architecture and optimised query processing with the Cypher language.
