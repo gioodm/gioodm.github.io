@@ -91,13 +91,14 @@ work:
     date_end: ''
     summary: |2-
       Activities include:
+      - Identifying methods to apply AI for the development of sustainable food proteins
+      - Using _in-silico_ directed evolution to improve protein functionality on enzymes relevant for bioproduction
+      - Optimising neural network models for bacterial promoter prediction using Keras and PyTorch
       - Design, development and implementation of WASP, a Python-based command-line pipeline for structure-based protein annotation
       - Network analysis, statistical testing, and enrichment for protein function inference
       - Use of REST APIs for web scraping
-      - Design and development of web applications with Python DASH
-      - Genome-scale Metabolic models curation and phylogenetic cross-organism comparison
       - Communication of findings through regular presentations and reports
-      - Participation in the selection, evaluation and interview process of new candidates for collaboration
+      - Participating in the selection, evaluation and interview process of new candidates for collaboration
       - Supervising and mentoring of students
   - position: Lab Technician
     company_name: Maastricht Center for Systems Biology
