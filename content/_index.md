@@ -43,7 +43,7 @@ sections:
         - **Promoter Prediction**: Optimising neural network models for bacterial promoter prediction.
         - **WASP**: Developed a pipeline for protein functional annotation based on AlphaFold structural models.
         
-        I'm passionate about advancing these fields and always open to discussing ideas and collaborating with new colleagues.
+        I'm passionate about advancing these fields and always open to discussing ideas and collaborating with new colleagues!
     design:
       columns: '1'
   - block: collection
