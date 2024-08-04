@@ -1,5 +1,5 @@
 ---
-title: ML for Sounds Classification
+title: Sounds Classification in the Brainstem
 date: 2022-06-03
 external_link: 
 url_code: https://github.com/gioodm/ML-for-sounds-classification
