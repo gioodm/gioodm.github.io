@@ -2,7 +2,7 @@
 title: Phenotype-Driven Variant Prioritisation Tools
 date: 2021-03-21
 external_link: 
-url_pdf: uploads/Phenotype_driven_variant_prioritisation_tools.pdf
+url_pdf: uploads/Phenotype_driven_variant_prioritization_tools.pdf
 tags:
   - Whole Exome Sequencing (WES)
   - Hereditary Optic Neuropathies (HON)
