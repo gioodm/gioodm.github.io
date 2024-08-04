@@ -1,5 +1,5 @@
 ---
-title: ML for sound classification
+title: ML for Sounds Classification
 date: 2022-06-03
 external_link: 
 url_code: https://github.com/gioodm/ML-for-sounds-classification
@@ -20,7 +20,7 @@ Evaluating various ML methods in classifying sound categories based on fMRI data
 
 #### **Background**
 - The auditory system processes sound through several neuronal structures, with increasing complexity as the signal moves from the cochlea to the auditory cortex.
-- Machine learning techniques have been applied to fMRI data analysis to detect brain activation patterns linked to cognitive states, but less is known about sound processing in subcortical regions like the cochlear nucleus (CN), superior olivary complex (SOC), inferior colliculus (IC), and medial geniculate body (MGB).
+- Machine Learning (ML) techniques have been applied to fMRI data analysis to detect brain activation patterns linked to cognitive states, but less is known about sound processing in subcortical regions like the cochlear nucleus (CN), superior olivary complex (SOC), inferior colliculus (IC), and medial geniculate body (MGB).
 
 #### **Materials and Methods**
 - **Dataset:** fMRI responses to seven sound categories (human speech, voice, animal sounds, music, tools, nature sounds, monkey calls) across four brain regions in ten subjects.
@@ -36,6 +36,6 @@ Evaluating various ML methods in classifying sound categories based on fMRI data
   - **Random Forest and SVM:** Various performances across regions, with no single method consistently outperforming the others.
 
 #### **Conclusions**
-- Classifying sounds in brainstem regions using machine learning is challenging, with no single method clearly superior.
+- Classifying sounds in brainstem regions using ML is challenging, with no single method clearly superior.
 - The dataset's complexity and the subcortical fMRI signal quality contribute to the difficulties.
-- Better classification accuracy was observed for ecologically relevant sounds compared to inanimate objects, supporting the hypothesis that higher brain regions are optimized for processing behaviorally significant sounds. Further research with more subjects and refined methods is suggested.
+- Better classification accuracy was observed for ecologically relevant sounds compared to inanimate objects, supporting the hypothesis that higher brain regions are optimised for processing behaviorally significant sounds. Further research with more subjects and refined methods is suggested.
