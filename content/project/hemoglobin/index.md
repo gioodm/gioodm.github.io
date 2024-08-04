@@ -2,7 +2,7 @@
 title: Hemoglobin Complex Analysis
 date: 2020-02-14
 external_link: 
-url_pdf: uploads/DelMissier_PIBN
+url_pdf: uploads/DelMissier_PIBN.pdf
 url_code: https://github.com/gioodm/Hemoglobin-complex-analysis
 tags:
   - Structural biology
