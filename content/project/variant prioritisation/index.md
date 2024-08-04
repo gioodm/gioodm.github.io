@@ -1,9 +1,8 @@
 ---
-title: MAGNET_GX
+title: Phenotype-driven variant prioritization tools
 date: 2022-02-01
 external_link: 
-url_pdf: uploads/PRO4002_cardiac_energy_metabolism.pdf
-url_code: https://github.com/gioodm/MAGNET_GX
+url_pdf: uploads/Phenotype_driven_variant_prioritization_tools.pdf
 tags:
   - Transcriptomics
   - RNA-seq
