@@ -16,7 +16,7 @@ image:
   preview_only: false
 ---
 
-Investigating the impact of myelination variations along a single axon on action potential (AP) conduction
+Investigating the impact of myelination variations along a single axon on action potential (AP) conduction.
 
 ### Summary
   

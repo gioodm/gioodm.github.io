@@ -15,7 +15,7 @@ image:
   preview_only: false
 ---
 
-Computational analysis of the hemoglobin complex
+Computational analysis of the hemoglobin structure complex
 
 ### Summary
 
