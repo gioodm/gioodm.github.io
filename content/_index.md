@@ -55,11 +55,11 @@ sections:
           - project
     design:
       view: article-grid
-      columns: 4
+      columns: 3
   - block: collection
     id: papers
     content:
-      title: Recent Publications
+      title: Publications
       text: ""
       filters:
         folders:
