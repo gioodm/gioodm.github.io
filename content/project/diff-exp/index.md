@@ -16,7 +16,7 @@ image:
   preview_only: false
 ---
 
-RNA-sequencing dataset analysis and metabolic pathway analysis of patients with dilated cardiomyopathy.
+RNA-sequencing dataset analysis and metabolic pathway analysis of patients with dilated cardiomyopathy.  
 
 ### Summary
   

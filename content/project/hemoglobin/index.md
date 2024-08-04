@@ -15,7 +15,7 @@ image:
   preview_only: false
 ---
 
-Computational analysis of structural properties of the hemoglobin complex.
+Computational analysis of structural properties of the hemoglobin complex.  
 
 ### Summary
 

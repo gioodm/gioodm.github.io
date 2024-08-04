@@ -14,7 +14,7 @@ image:
   preview_only: false
 ---
 
-Evaluating various ML methods in classifying sound categories based on fMRI data from brainstem regions.
+Evaluating various ML methods in classifying sound categories based on fMRI data from brainstem regions.  
 
 ### Summary
 

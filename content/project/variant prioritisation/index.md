@@ -15,7 +15,7 @@ image:
   preview_only: false
 ---
 
-Evaluation of computational tools for phenotype-driven variant prioritisation in Whole Exome Sequencing data.
+Evaluation of computational tools for phenotype-driven variant prioritisation in Whole Exome Sequencing data.  
 
 ### Summary
   
