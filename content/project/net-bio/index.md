@@ -1,5 +1,5 @@
 ---
-title: Isobutabol tolerance in S. cerevisiae
+title: Isobutabol Tolerance in S. cerevisiae
 date: 2022-06-01
 external_link: 
 url_pdf: uploads/Isobutanol_tolerance_Scerevisiae.pdf

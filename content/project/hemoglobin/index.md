@@ -1,5 +1,5 @@
 ---
-title: Hemoglobin complex analysis
+title: Hemoglobin Complex Analysis
 date: 2020-02-14
 external_link: 
 url_pdf: uploads/DelMissier_PIBN
