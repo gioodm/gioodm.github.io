@@ -20,7 +20,7 @@ Computational analysis of structural properties of the hemoglobin complex.
 ### Summary
 
 #### **Background**
-   The report provides a comprehensive computational analysis of the hemoglobin complex, focusing on its structural properties and interactions within the human proteome. The primary objectives are to identify key components that stabilize the hemoglobin tetramer, understand the interactions between protein monomers and heme groups, and explore the connectivity of hemoglobin subunits in various biological pathways.
+   The report provides a comprehensive computational analysis of the hemoglobin complex, focusing on its structural properties and interactions within the human proteome. The primary objectives are to identify key components that stabilise the hemoglobin tetramer, understand the interactions between protein monomers and heme groups, and explore the connectivity of hemoglobin subunits in various biological pathways.
 
 #### **Materials and Methods**
    1. **Data Collection**:
@@ -43,7 +43,7 @@ Computational analysis of structural properties of the hemoglobin complex.
 
    2. **Heme-Monomer Interactions**:
       - Residues within each chain interacting with heme and oxygen atoms were identified, showing symmetry between different subunits.
-      - Histidines (His58, His87) play a crucial role in stabilizing the heme group.
+      - Histidines (His58, His87) play a crucial role in stabilising the heme group.
 
    3. **Monomer-Monomer Interactions**:
       - Significant non-covalent interactions were found between monomers, especially between α and β subunits (chains A-B and C-D).
@@ -57,4 +57,4 @@ Computational analysis of structural properties of the hemoglobin complex.
       - The network analysis highlighted the connectivity of hemoglobin subunits within the human proteome.
       - Metrics such as betweenness centrality, node degree, and clustering coefficient provided insights into the role of hemoglobin subunits in various biological pathways and their interactions with other proteins.
 
-   These findings enhance the understanding of the structural properties and interactions that stabilize the hemoglobin complex and elucidate its role within the human proteome. The detailed analysis of monomer interactions and the protein-protein interaction network offers valuable insights into the functionality and biological significance of hemoglobin.
+   These findings enhance the understanding of the structural properties and interactions that stabilise the hemoglobin complex and elucidate its role within the human proteome. The detailed analysis of monomer interactions and the protein-protein interaction network offers valuable insights into the functionality and biological significance of hemoglobin.
