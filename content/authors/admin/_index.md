@@ -205,7 +205,7 @@ awards:
 ---
 
 
-### Ciao! I'm Giorgia
+## Ciao 👋🏽 I'm Giorgia!
 
 I am a computational biologist, and I am passionate about solving sustainability challenges in bioengineering using ML and AI. Currently, I am leading the computational team at the [Ledesma-Amaro Synthetic Biology group](https://www.rlalab.org/) at Imperial College London.
 
