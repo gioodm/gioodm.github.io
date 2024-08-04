@@ -1,14 +1,14 @@
 ---
-title: Modeling intra-axonal heteogeneity
+title: Modelling intra-axonal heterogeneity
 date: 2022-07-01
 external_link: 
 url_pdf: uploads/PRO4003_final_report.pdf
-url_code: https://github.com/gioodm/Project_group_2B
+url_code: https://github.com/gioodm/Modelling-intra-axonal-heterogeneity
 tags:
   - Computational neuroscience
   - Action potential
   - Myelin
-  - MATLAB modeling
+  - MATLAB
 
 image:
   caption: 'Figure created with BioRender.'

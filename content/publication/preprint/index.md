@@ -72,7 +72,7 @@ projects:
 
 - **Improved Annotation and Industrial Application**: WASP improved annotation in a cohort of industrially relevant organisms by 20-30% for previously uncharacterised proteins and successfully annotated a novel isolate of the yeast _Yarrowia lipolytica_. By improving annotation levels of high-potential organisms, WASP enhances the exploitation of their biological capabilities for various biotechnological applications.
 
-- **Genome-Scale Metabolic Models (GEMs)**: WASP curated GEMs by gap-filling orphan reactions, identifying candidates for 75-100% of these reactions across 20 GEMs, based on plausible biological associations and providing insights into protein evolution. These results enhance out ability to perform quantitative biological analyses, enabling the construction of more accurate and predictive metabolic network models for better understanding and manipulation of biological systems.
+- **Genome-Scale Metabolic Models (GEMs)**: WASP curated GEMs by gap-filling orphan reactions, identifying candidates for 75-100% of these reactions across 20 GEMs, based on plausible biological associations and providing insights into protein evolution. These results enhance our ability to perform quantitative biological analyses, enabling the construction of more accurate and predictive metabolic network models for better understanding and manipulation of biological systems.
 
 - **Phylogenetic Tree Reconstruction**: WASP provides superior clade discrimination in phylogenetic studies, offering precise mapping of evolutionary relationships and functional diversities among proteins, and deeper insights into protein evolution within and across species.
 
