@@ -175,12 +175,12 @@ awards:
     awarder: NVIDIA
     icon: brands/nvidia
     summary: |
-      In this workshop, I learned the fundamental tools and techniques for accelerating C/C++ applications on massively parallel GPUs using CUDA. I gained skills in writing and parallelizing code, optimizing memory migration between the CPU and GPU, and applying these techniques to accelerate a CPU-only particle simulator for significant performance gains. Additional resources were provided for further learning and development of GPU-accelerated applications.  
+      In this workshop, I learned the fundamental tools and techniques for accelerating C/C++ applications on massively parallel GPUs using CUDA. I gained skills in writing and parallelizing code, optimising memory migration between the CPU and GPU, and applying these techniques to accelerate a CPU-only particle simulator for significant performance gains.
       Learning Objectives:
        - Write code for execution on a GPU accelerator.
        - Express data and instruction-level parallelism in C/C++ using CUDA.
-       - Optimize memory migration with CUDA-managed memory and asynchronous prefetching.
-       - Use command-line and visual profilers to optimize performance.
+       - Optimise memory migration with CUDA-managed memory and asynchronous prefetching.
+       - Use command-line and visual profilers to optimise performance.
        - Utilize concurrent streams for instruction-level parallelism.
        - Develop and refactor GPU-accelerated CUDA C/C++ applications using a profile-driven approach.
   - title: 'Deep Learning with PyTorch : Build an AutoEncoder'
@@ -198,7 +198,7 @@ awards:
     awarder: Neo4j
     icon: neo4j
     summary: |
-     Neo4j is a graph database management system that uses graph structures—comprising nodes, edges, and properties—to represent and store data. It is designed for handling large-scale connected data and is renowned for its high performance and scalability.  
+     Neo4j is a graph database management system that uses graph structures — comprising nodes, edges, and properties — to represent and store data. It is designed for handling large-scale connected data and is renowned for its high performance and scalability.  
      Learning objectives:
       - Understanding graph theory, the fundamentals of graph databases, and their differences from traditional relational databases.
       - Neo4j's architecture and optimised query processing with the Cypher language.
